@@ -1,0 +1,9 @@
+.env
+.env.*
+*.log
+*.key
+*.pem
+*.p12
+*.pfx
+credentials*
+secrets*
