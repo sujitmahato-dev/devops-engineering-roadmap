@@ -128,6 +128,19 @@ check_ip_address() {
     fi
 }
 check_ip_address
+check_processes() {
+    local top_processes=$(ps aux --sort=-%mem | head -n 6)
+    echo "Top 5 Memory Consuming Processes:" >> $LOG_FILE
+    echo "$top_processes" >> $LOG_FILE
+}
+check_processes
+
+check_services() {
+    local services=$(systemctl list-units --type=service --state=running)
+    echo "Running Services:" >> $LOG_FILE
+    echo "$services" >> $LOG_FILE
+}
+check_services  
 
 main() {
     echo "Starting Linux Health Check..."  >> $LOG_FILE
@@ -136,6 +149,7 @@ main() {
     check_cpu_usage
     check_hostname
     check_ip_address
+    check_processes
     echo "Health Check Completed."
 }
 
