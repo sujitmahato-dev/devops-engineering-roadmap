@@ -63,9 +63,16 @@ Linux fundamentals
 
 ### Day 4
 - Git & Github for DevOps
+- git status
+- git diff
+- git add .
+- git commit -m 'meaningful message"
+- git push (git push origin main)
+
+
  ## Current Learning
 I am currently building practical Devops skills through hands-on Linux, networking, Git, Cloud, automation and infrastructure projects.
- 
+
 ## 🧠 Learning Philosophy
 
 Learn → Practice → Break → Troubleshoot → Automate → Document
