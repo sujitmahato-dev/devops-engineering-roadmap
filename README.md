@@ -61,6 +61,11 @@ Linux fundamentals
 - TLS
 - curl
 
+### Day 4
+- Git & Github for DevOps
+ ## Current Learning
+I am currently building practical Devops skills through hands-on Linux, networking, Git, Cloud, automation and infrastructure projects.
+ 
 ## 🧠 Learning Philosophy
 
 Learn → Practice → Break → Troubleshoot → Automate → Document
