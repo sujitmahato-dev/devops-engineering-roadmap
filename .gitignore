@@ -38,10 +38,3 @@ build/
 *.tfstate
 *.tfstate.*
 crash.log
-
-#Certificate files
-*.pem
-*.p12
-*.pfx
-credentials*
-secrets*
