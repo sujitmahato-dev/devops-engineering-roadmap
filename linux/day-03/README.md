@@ -33,3 +33,11 @@ ssh -p <PORT> user@host
 getent hosts <DOMAIN>
 curl -I <URL>
 curl -v <URL>
+
+
+## Current Learning
+I am currently building practical Devops skills through hands-on Linux, networking, Git, cloud, automation and infrastructure projects.
+
+My approach:
+
+**Learn -> Practice -> Build -> Troubleshoot -> Automate -> Documents **
