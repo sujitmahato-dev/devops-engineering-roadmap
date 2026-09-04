@@ -1,0 +1,3 @@
+Enviornment: Development
+Application : Devops Learning
+Port : 8080 
